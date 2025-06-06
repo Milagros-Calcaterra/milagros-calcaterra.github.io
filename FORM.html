@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - UntrefSchool</title>
+  <link rel="stylesheet" href="tpintegrador.css">
+
+  <!-- Milligram CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+</head>
+<body>
+
+  <main class="container" id="contactenos">
+    <h1>¡Contactanos!</h1>
+    <p>Realice su consulta y nos pondremos en contacto a la brevedad.</p>
+
+    <form action="https://formsubmit.co/calcamili@gmail.com" method="post">
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" required>
+
+      <label for="apellido">Apellido</label>
+      <input type="text" name="apellido" required>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="correo electrónico" required>
+
+      <label for="telefono">Teléfono</label>
+      <input type="tel" name="telefono" id="telefono">
+
+      <label for="texto">Mensaje</label>
+      <textarea name="texto" id="texto" cols="30" rows="8" placeholder="Escribí tu mensaje aquí" required></textarea>
+
+      <input type="submit" value="Enviar" name="submit">
+    </form>
+  </main>
+
+</body>
+</html>

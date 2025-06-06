@@ -1,0 +1,270 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color:  #EFF5F5;
+}
+
+nav {
+  display: flex;
+  background-color:  #EFF5F5;
+  padding: 2rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.marca {
+  font-weight: bold;
+  font-size: 30px;
+  color: #FC7300;
+}
+
+.menu {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 20px;
+  color: #FC7300;
+}
+
+.presentacion {
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-size: 20px;
+  background-color: #EFF5F5;
+  border-radius: 10px;
+  padding: 2rem;
+  opacity: 0.8;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  text-align: center;
+}
+
+.imagenescolar {
+  width: 100%;
+  height: auto;
+}
+
+.Tarjetas {
+  border-radius: 12px;
+  max-width: 1200px;
+  text-align-last: center;
+  margin: 2rem auto;
+  margin-bottom: 40px;
+}
+
+.imges {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.imges img {
+  width: 400px;
+  height: auto;
+}
+
+.hipervinculo:hover {
+  color: rgb(0, 255, 85);
+}
+
+#ultimas {
+  background-color:  #fc7100;
+  color: #ffffff;
+  padding: 2rem;
+  font-size: 30px;
+}
+
+.imagenes {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color:  #1F8A70 ;
+  padding: 1rem;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.bg {
+  background-image: url("/UNTREF.PRIMARIA.JPG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+  }
+
+  nav {
+    flex-direction: column;
+    padding: 0.5rem;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .marca {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 0.3rem;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .presentacion {
+    font-size: 11px;
+    padding: 1rem;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .imagenescolar {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .Tarjetas,
+  .Tarjetas2 {
+    width: 100%;
+    padding: 1rem;
+    font-size: 12px;
+    box-sizing: border-box;
+  }
+
+  .imges,
+  .imagenes {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imges img,
+  .imagenes img {
+    width: 90%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 1rem;
+  }
+
+ 
+}
+
+
+@media screen and (max-width: 320px) {
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+  }
+
+  nav {
+    flex-direction: column;
+    padding: 0.5rem;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .marca {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 0.3rem;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .presentacion {
+    font-size: 11px;
+    padding: 1rem;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .imagenescolar {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .Tarjetas,
+  .Tarjetas2 {
+    width: 100%;
+    padding: 1rem;
+    font-size: 12px;
+    box-sizing: border-box;
+  }
+
+  .imges,
+  .imagenes {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imges img,
+  .imagenes img {
+    width: 90%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 1rem;
+  }
+
+  .redes-sociales a,
+  .contacto a {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
