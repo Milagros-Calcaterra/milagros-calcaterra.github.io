@@ -199,7 +199,7 @@ img {
   }
 
   nav {
-    flex-direction: column;
+    flex-direction: row;
     padding: 0.5rem;
     align-items: center;
     gap: 0.3rem;
@@ -257,12 +257,18 @@ img {
     border-radius: 10px;
   }
 
+  #ultimas {
+    background-color:  #fc7100;
+    color: #ffffff;
+    padding: 2rem;
+    font-size: 13px;
+  }
+
   footer {
     font-size: 12px;
     padding: 1rem;
   }
 
-  .redes-sociales a,
   .contacto a {
     display: block;
     margin-bottom: 0.5rem;
